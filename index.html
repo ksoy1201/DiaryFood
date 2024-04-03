@@ -5,114 +5,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/my_reset.css" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/chapter2.css" />
+    <link rel="stylesheet" href="/css/chapter3.css" />
+    <link rel="stylesheet" href="/css/chapter4.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>
-          <a href="#">
-            <img src="/img/Edit.svg" alt="메인로고" />
-            DiaryFood
-          </a>
-        </h1>
+    <div class="wrap">
+      <header>
+        <nav class="mw">
+          <h1>
+            <a href="#">
+              <img src="/img/Logo.svg" alt="DiaryFood로고" />
+            </a>
+          </h1>
+          <ul class="gnb">
+            <li><a href="">Beranda</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Resep</a></li>
+            <li><a href="">Tentang Kami</a></li>
+          </ul>
+          <i class="fa-solid fa-bars ham"></i>
+        </nav>
+      </header>
 
-        <ul>
-          <li><a href="">Beranda</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Resep</a></li>
-          <li><a href="">Tentang Kami</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="main">
-      <h2>
-        <strong> Bagikan </strong>
-        <strong> Pengalaman <span>Makan</span> </strong>
-        <strong> dan </strong>
-        <strong> Resepmu</strong>
-        <strong> di <span>Sini!</span> </strong>
-        <p>
-          Ingin berbagi pengalaman makan atau resep makanan yang kamu sukai? Ayo
-          bagikan kelezatan makananmu dengan para pengunjung lainnya!
-        </p>
-        <button>Bagikan Sekarang!</button>
-        <button>Telusuri Blog >></button>
-      </h2>
-      <img src="/img/Rectangle.svg" alt="말풍선" />
-      <img src="/img/Hero_Image.svg" alt="메인사진" />
-      <img src="/img/coffee.svg" alt="" />
-      <img src="/img/light.svg" alt="" />
-      <span>
-        <img src="/img/Heart.svg" alt="하트로고" />“Resepnya Mudah!”
-      </span>
-      <span
-        ><img src="/img/Chat.svg" alt="말풍선로고" />“Mudah Banget Berbagi
-        Cerita Disini”
-      </span>
-    </section>
-    <section class="chapter2">
-      <h2>Disini tempatnya Food Enthusiast saling Berbagi Rasa!</h2>
+      <section class="main mw">
+        <div class="inner">
+          <div>
+            <h2>
+              Bagikan
+              <strong> Pengalaman <br /> </strong>
+              <strong>Makan</strong>
+              dan
+              <strong> Resepmu</strong>
+              di <br />Sini!
+            </h2>
+            <p>
+              Ingin berbagi pengalaman makan atau resep makanan yang kamu
+              sukai?<br />
+              Ayo bagikan kelezatan makananmu dengan para pengunjung lainnya!
+            </p>
+            <button class="btn_1">Bagikan Sekarang!</button>
+            <button class="btn_2">Telusuri Blog >></button>
+          </div>
 
-      <img src="/img/Fruit.svg" alt="" />
-      <p>Mudah!</p>
-      <p>Mudah Mencari dan membuat artikelnya</p>
+          <div class="imgArea">
+            <img src="/img/Rectangle.svg" alt="말풍선" />
+            <img class="a" src="/img/unsplash.png" alt="메인사진" />
+            <img src="/img/EllipseBack.png" alt="뒤 점선 반원" />
+            <img src="/img/Vector1.png" alt="앞 점선 반원" />
 
-      <img src="/img/Ordering svg.svg" alt="" />
-      <p>Beragam!</p>
-      <p>Banyak pilihan artikel yang disedikana</p>
+            <img src="/img/coffee.svg" alt="" />
+            <img src="/img/light.svg" alt="" />
+            <span class="heart">
+              <img src="/img/Heart.svg" alt="하트로고" />“Resepnya Mudah!”
+            </span>
+            <span class="chat"
+              ><img src="/img/Chat.svg" alt="말풍선로고" />“Mudah Banget
+              Berbagi<br />
+              Cerita Disini”
+            </span>
+          </div>
+        </div>
+      </section>
+      <section class="chapter2 mw">
+        <div class="inner">
+          <h2>
+            Disini tempatnya Food Enthusiast <br />
+            saling Berbagi Rasa!
+          </h2>
+          <ul>
+            <li>
+              <img src="/img/Fruit.svg" alt="" />
+              <h3>Mudah!</h3>
+              <p>
+                Mudah Mencari dan <br />
+                membuat artikelnya
+              </p>
+            </li>
+            <li>
+              <img src="/img/Ordering svg.svg" alt="" />
+              <h3>Beragam!</h3>
+              <p>
+                Banyak pilihan artikel <br />
+                yang disedikana
+              </p>
+            </li>
+            <li>
+              <img src="/img/Taco.svg" alt="" />
+              <h3>Menarik!</h3>
+              <p>
+                Banyak pilihan artikel <br />
+                menarik
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="chapter3 mw i">
+        <div>
+          <h2>Tulisan Terbaru</h2>
 
-      <img src="/img/Fruit.svg" alt="" />
-      <p>Menarik!</p>
-      <p>Banyak pilihan artikel menarik</p>
-    </section>
-    <section class="chapter3">
-      <h3>Tulisan Terbaru</h3>
-      <div>
-        <img src="/img/food.svg" alt="" />
-        <strong>Best Place to find Food in Bandar Lampung</strong>
-        <p>Mudah Mencari dan membuat artikelnya</p>
-        <button>Manisan</button>
-        <button>Blog</button>
-      </div>
-      <div>
-        <img src="/img/food.svg" alt="" />
-        <strong>Best Place to find Food in Bandar Lampung</strong>
-        <p>Mudah Mencari dan membuat artikelnya</p>
-        <button>Manisan</button>
-        <button>Blog</button>
-      </div>
-      <div>
-        <img src="/img/food.svg" alt="" />
-        <strong>Best Place to find Food in Bandar Lampung</strong>
-        <p>Mudah Mencari dan membuat artikelnya</p>
-        <button>Manisan</button>
-        <button>Blog</button>
-      </div>
-      <span> <a href="">Lainnya</a> </span>
-    </section>
-    <section class="chapter4">
-      <div>
-        <img src="/img/food.svg" alt="" />
-        <strong>Best Place to find Food in Bandar Lampung</strong>
-        <p>Mudah Mencari dan membuat artikelnya</p>
-        <button>Manisan</button>
-        <button>Blog</button>
-      </div>
-      <div>
-        <img src="/img/food.svg" alt="" />
-        <strong>Best Place to find Food in Bandar Lampung</strong>
-        <p>Mudah Mencari dan membuat artikelnya</p>
-        <button>Manisan</button>
-        <button>Blog</button>
-      </div>
-      <span> <a href="">Lainnya</a> </span>
-    </section>
-    <footer>
-      <p>Copyright - DiaryFood 2023</p>
-      <a href=""> Blog </a>
-      <a href=""> Resep </a>
-    </footer>
+          <ul>
+            <li>
+              <div class="card">
+                <div class="imgs"><img src="/img/food.svg" alt="" /></div>
+                <h3>Best Place to find Food in Bandar Lampung</h3>
+                <p>Mudah Mencari dan membuat artikelnya</p>
+                <button>Manisan</button>
+                <button>Blog</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="card">
+                <div class="imgs"><img src="/img/food.svg" alt="" /></div>
+                <h3>Best Place to find Food in Bandar Lampung</h3>
+                <p>Mudah Mencari dan membuat artikelnya</p>
+                <button>Manisan</button>
+                <button>Blog</button>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <div class="imgs"><img src="/img/food.svg" alt="" /></div>
+                <h3>Best Place to find Food in Bandar Lampung</h3>
+                <p>Mudah Mencari dan membuat artikelnya</p>
+                <button>Manisan</button>
+                <button>Blog</button>
+              </div>
+            </li>
+          </ul>
+          <a href="">Lainnya</a>
+        </div>
+      </section>
+      <section class="chapter4 mw i">
+        <div>
+          <h2>Resep Terbaru</h2>
+          <ul>
+            <li>
+              <div class="card">
+                <div class="imgs"><img src="/img/food.svg" alt="" /></div>
+                <h3>Best Place to find Food in Bandar Lampung</h3>
+                <p>Mudah Mencari dan membuat artikelnya</p>
+                <button>Manisan</button>
+                <button>Resep</button>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <div class="imgs"><img src="/img/food.svg" alt="" /></div>
+                <h3>Best Place to find Food in Bandar Lampung</h3>
+                <p>Mudah Mencari dan membuat artikelnya</p>
+                <button>Manisan</button>
+                <button>Resep</button>
+              </div>
+            </li>
+          </ul>
+          <a href="">Lainnya</a>
+        </div>
+      </section>
+      <footer class="mw">
+        <div class="footer-line"></div>
+
+        <p>Copyright - DiaryFood 2023</p>
+        <a href=""> Blog </a>
+        <a href=""> Resep </a>
+      </footer>
+    </div>
   </body>
+  <script src="/main.js"></script>
 </html>

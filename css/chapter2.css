@@ -1,0 +1,120 @@
+section {
+  position: relative;
+}
+
+.chapter2 {
+  padding-top: 150px;
+}
+
+.chapter2 .inner {
+  /* border: 1px solid red; */
+  max-width: 1440px;
+  height: 711px;
+  background-color: #fff3de;
+}
+
+.chapter2 .inner h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: -100px auto 50px;
+  line-height: 1.5;
+  /* padding-bottom: 10%; */
+}
+.inner ul > * {
+  /* border: 1px solid red; */
+}
+.chapter2 img {
+  width: 296px;
+  /* z-index: 2; */
+  position: relative;
+}
+
+.inner ul {
+  display: flex;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+}
+.inner ul li:nth-of-type(1)::before,
+.inner ul li:nth-of-type(2)::before,
+.inner ul li:nth-of-type(3)::before {
+  content: '';
+  position: absolute;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  top: 45%;
+}
+
+.inner ul li:nth-of-type(1)::before {
+  background-color: #ff725e;
+  left: 11%;
+}
+.inner ul li:nth-of-type(2)::before {
+  background-color: #ffdc5e;
+  left: 42%;
+}
+.inner ul li:nth-of-type(3)::before {
+  background-color: #ffb55e;
+  left: 73%;
+}
+
+.inner ul h3 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.inner ul p {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-tx);
+  padding-top: 10px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .chapter2 {
+    padding-top: 30%;
+  }
+  .chapter2 img {
+    width: 230px;
+    /* position: relative; */
+  }
+  .inner ul {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .inner ul li:nth-of-type(1)::before,
+  .inner ul li:nth-of-type(2)::before,
+  .inner ul li:nth-of-type(3)::before {
+    top: 5%;
+    width: 200px;
+    height: 200px;
+  }
+  .inner ul li:nth-of-type(1)::before {
+    background-color: #ff725e;
+    left: 27%;
+  }
+  .inner ul li:nth-of-type(2)::before {
+    background-color: #ffdc5e;
+    left: 43%;
+  }
+  .inner ul li:nth-of-type(3)::before {
+    background-color: #ffb55e;
+    left: 59%;
+  }
+  .inner ul h3 {
+    font-size: 30px;
+  }
+}
