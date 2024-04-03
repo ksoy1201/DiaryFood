@@ -118,3 +118,41 @@ section {
     font-size: 30px;
   }
 }
+
+@media (max-width: 500px) {
+  .chapter2 {
+    padding-top: 60%;
+  }
+  .chapter2 .inner h2 {
+    padding-top: 6rem;
+    font-size: 20px;
+  }
+  .chapter2 img {
+    width: 150px;
+  }
+  .inner ul li:nth-of-type(1)::before,
+  .inner ul li:nth-of-type(2)::before,
+  .inner ul li:nth-of-type(3)::before {
+    top: 5%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .inner ul li:nth-of-type(1)::before {
+    left: 33%;
+  }
+  .inner ul li:nth-of-type(2)::before {
+    left: 46%;
+  }
+  .inner ul li:nth-of-type(3)::before {
+    left: 58%;
+  }
+  .inner ul h3 {
+    font-size: 20px;
+  }
+
+  .inner ul p {
+    font-size: 12px;
+  }
+}

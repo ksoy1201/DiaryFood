@@ -87,3 +87,27 @@ section a {
     font-size: 30px;
   }
 }
+
+@media (max-width: 500px) {
+  .i h2 {
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+
+  .chapter3 ul {
+    overflow-x: auto;
+  }
+
+  .chapter3 .card h3 {
+    font-size: 20px;
+  }
+
+  .chapter3 .card {
+    top: -10px;
+    margin-right: 2rem;
+  }
+  section a {
+    font-size: 20px;
+    padding-bottom: 1rem;
+  }
+}

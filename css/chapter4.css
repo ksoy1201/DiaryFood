@@ -100,4 +100,40 @@ footer a {
   .chapter4 ul {
     padding: 1rem 5rem;
   }
+  .footer-line {
+    width: 800px;
+    height: 3px;
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  footer a {
+    left: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-line {
+    width: 400px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer a {
+    left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .chapter4 ul {
+    overflow-x: auto;
+  }
+
+  .chapter4 .card h3 {
+    font-size: 20px;
+  }
+
+  .chapter4 .card {
+    top: -10px;
+    margin-right: 2rem;
+  }
 }
