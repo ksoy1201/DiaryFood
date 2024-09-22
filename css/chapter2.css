@@ -52,15 +52,15 @@ section {
 
 .inner ul li:nth-of-type(1)::before {
   background-color: #ff725e;
-  left: 11%;
+  left: 9%;
 }
 .inner ul li:nth-of-type(2)::before {
   background-color: #ffdc5e;
-  left: 42%;
+  left: 36.5%;
 }
 .inner ul li:nth-of-type(3)::before {
   background-color: #ffb55e;
-  left: 73%;
+  left: 63%;
 }
 
 .inner ul h3 {
